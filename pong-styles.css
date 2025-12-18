@@ -17,6 +17,16 @@ body {
   background-size: cover;
 }
 
+/*#front-image {
+    position: absolute; /
+    top: 50%; / Adjust position as needed /
+    left: 50%;
+    transform: translate(-50%, -50%); / Center the image /
+    z-index: 1; /* Layer above the background but below the paddles /
+    width: 400px; /* Adjust the size of the image /
+    height: auto;
+*/
+
 #left-paddle {
   background-color: yellow;
   left: 10px;
