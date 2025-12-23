@@ -61,7 +61,7 @@ ambientSound.player.loop = true; // Loop playback
 ambientSound.player.volume.value = 0; // Start muted (adjust as needed)
 
 // Adventure music, looped
-export var adventureMusic = new soundFile("silence.mp3");
+export var adventureMusic = new soundFile("LVL_ONE.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = 1; // Normal volume level
