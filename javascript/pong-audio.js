@@ -62,7 +62,7 @@ ambientSound.player.volume.value = 0; // Start muted (adjust as needed)
 export var adventureMusic = new soundFile("LVL_ONE.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = 1; // Normal volume level
+adventureMusic.player.volume.value = 5; // Normal volume level
 
 // Village music, looped at a softer volume
 export var villageMusic = new soundFile("silence.mp3");
