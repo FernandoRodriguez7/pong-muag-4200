@@ -25,13 +25,13 @@ body {
 }
 
 #left-paddle {
-  background-color: yellow;
+  background-color: #2192FD;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: black;
+  background-color: #FA052A;
   right: 10px;
  
   
@@ -84,7 +84,7 @@ body {
 .ball {
   width: 15px;
   height: 15px;
-  background-color: yellow;
+  background-color: #FFFFFF;
   border-radius: 10px;
   position: absolute;
   left: 50px;
@@ -95,7 +95,7 @@ body {
   display: block;
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
+  color: #FFFFFF;
   top: 0;
 }
 
