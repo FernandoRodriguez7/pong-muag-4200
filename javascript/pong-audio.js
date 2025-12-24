@@ -55,7 +55,7 @@ export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
 // Ambient background sound, looped
-export var ambientSound = new soundFile("START_Tonic.mp3");
+export var ambientSound = new soundFile("LVL_ZERO.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; // Loop playback
 ambientSound.player.volume.value = 0; // Start muted (adjust as needed)
