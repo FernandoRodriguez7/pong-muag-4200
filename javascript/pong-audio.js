@@ -45,9 +45,17 @@ export var wallSound = new soundFile("silence.mp3"); // Placeholder file
 soundArray.push(wallSound); // Add to the sound list
 
 // Paddle sound (e.g., hitting the paddle in the game)
-export var paddleSound = new soundFile(
-  Math.random() < 0.5 ? "Fuiftoo.mp3" : "Weien.mp3"
-);
+export var paddleSound = {
+  // Dynamically play either "fuiftoo.mp3" or "weien.mp3"
+  play: function () {
+    const randomFile = Math.random() < 0.5 ? "fuiftoo.mp3" : "weien.mp3";
+    const tempPlayer = new Tone.Player({
+      url: "./sounds/" + randomFile, // Dynamically decide the sound file
+      loop: false, // No looping
+      autostart: true // Automatically start playback when created
+    }).toMaster(); // Send the audio to the master output
+  }
+};
 soundArray.push(paddleSound);
 
 // Score sound (e.g., scoring a point)
