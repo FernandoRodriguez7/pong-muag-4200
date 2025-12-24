@@ -43,7 +43,7 @@ export class Ball {
     this.direction = { x: 0, y: 0 }; //Ball speed when game starts
     this.acceleration = 1.5; //X speed multipler on successful block
     this.initial = { x: 2, y: 0 }; //speed reset on point score
-    this.maximum = { x: 5, y: 2.5 }; //maximum speed
+    this.maximum = { x: 10, y: 5 }; //maximum speed
     this.inertialTransfer = 0.25; //multiplier for velocity.y transfer from paddle
     this.htmlElement = null; //element on HTML page
   }
